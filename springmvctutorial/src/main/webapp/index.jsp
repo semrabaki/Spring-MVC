@@ -14,12 +14,22 @@
      Spring boot is the most common framework in the market
      </p>
      
-    <h1>Get two integers from the user</h1>
+ <!--    <h1>Get two integers from the user</h1>
 	
 	<form action="add">
 		Enter first integer: <input type="text" name="n1">
 		<br><br>
 		Enter second integer: <input type="text" name="n2">
+		<br><br>
+		<input type="submit">
+	</form>
+	--> 
+	<h1>Add Student</h1>
+	
+	<form action="addStudent">
+		Enter student`s is: <input type="text" name="id">
+		<br><br>
+		Enter student`s name: <input type="text" name="name">
 		<br><br>
 		<input type="submit">
 	</form>

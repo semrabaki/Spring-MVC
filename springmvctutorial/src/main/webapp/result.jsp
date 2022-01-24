@@ -7,8 +7,15 @@
 <title>Result page</title>
 </head>
 <body>
-       <h1>Results:</h1>
-       Result of addition operation is: ${sumOfTwoIntegers}  <!-- $ is from JAVA -->
+      <!--  <h1>Results:</h1>               <!-- //$ sign goes  and get the value sumOfTwoIntegers method --> 
+      <!--   Result of addition operation is: ${sumOfTwoIntegers}  <!-- $ is from JAVA -->
+       <br><br>
+      <!--  Result of product is :${productOfTwoIntegers} -->
+      
+      
+      <h1>Student: </h1>
+      Added Student is: ${studentObject}
+       
        
 </body>
 </html>
