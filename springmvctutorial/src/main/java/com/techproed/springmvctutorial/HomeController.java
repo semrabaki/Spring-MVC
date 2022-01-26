@@ -12,7 +12,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String home() {
 		
-		return "index.jsp";  //it means this methods will return index.jsp which is home page
+		return "index";  //it means this methods will return index.jsp which is home page
 	}
 
 }

@@ -13,8 +13,17 @@
       <!--  Result of product is :${productOfTwoIntegers} -->
       
       
-      <h1>Student: </h1>
-      Added Student is: ${studentObject}
+     <!-- <h1>Student: </h1>
+      Added Student is: ${studentObject} --> 
+      
+     <!--  <h1>Greetings:</h1>
+      Welcome back ${greetStudent} -->
+      
+     <!--  <h1>Student List:</h1>
+    All students are  ${studentList}  -->
+    
+    <h1>Get a specific student with id</h1>
+    The student which you selected is ${specificStudent}
        
        
 </body>

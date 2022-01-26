@@ -24,15 +24,32 @@
 		<input type="submit">
 	</form>
 	--> 
-	<h1>Add Student</h1>
+	<!--  <h1>Add Student</h1>
 	
-	<form action="addStudent">
+	<form action="addStudent", method="post">
+		Enter student`s is: <input type="text" name="id">
+		<br><br>
+		Enter student`s name: <input type="text" name="name">
+		<br><br>
+		<input type="submit">
+	</form>-->
+	
+<!-- 	<h1>Get All Student</h1>
+	<form action="getStudent", method="get">
 		Enter student`s is: <input type="text" name="id">
 		<br><br>
 		Enter student`s name: <input type="text" name="name">
 		<br><br>
 		<input type="submit">
 	</form>
-
+ -->
+ 
+         <h1>Get specific stduent by using the id</h1>
+         <form action="getStudentWithId", method="get">
+         
+           Enter student id to get the information:<input type="text" name="id">
+           <br><br>
+           <input type="submit">
+         </form>        
 </body>
 </html>
